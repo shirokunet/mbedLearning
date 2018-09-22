@@ -4,5 +4,6 @@
 
 ## Movies
 ![Test](https://github.com/shirokunet/mbedLearning/raw/master/images/SimpleMotor.gif)
-[YouTube](https://www.youtube.com/watch?v=_s-gjzU4SO6800)
+
+[mbedLearning_SimpleMotor - YouTube](https://www.youtube.com/watch?v=_s-gjzU4SO6800)
 

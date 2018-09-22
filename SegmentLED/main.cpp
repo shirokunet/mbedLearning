@@ -26,27 +26,27 @@ PortOut digitnum_port(Port0, DIGIT_NUM_ALL);
 Serial pc(USBTX, USBRX, 115200);
 
 int main() {
-    int count = 0;
-    int digit[4] = {0};
-    while(1) {
-    	count += 1;
-    	for (int i=sizeof(digit)/sizeof(digit[0])-1; i>=0; i--){
-    		/* pow function */
-    		int denominator = 1;
-    		for (int j=0; j<i; j++){
-    			denominator = denominator * 10;
-    		}
+	int count = 0;
+	int digit[4] = {0};
+	while(1) {
+		count += 1;
+		for (int i=sizeof(digit)/sizeof(digit[0])-1; i>=0; i--){
+			/* pow function */
+			int denominator = 1;
+			for (int j=0; j<i; j++){
+				denominator = denominator * 10;
+			}
 
-    		/* store digit number */
-            digit[i] = (count/denominator)%10;
+			/* store digit number */
+			digit[i] = (count/denominator)%10;
 
-            /* blink LED */
-            digit_port = digit_mask[i];
-            digitnum_port = digit_num[digit[i]];
+			/* blink LED */
+			digit_port = digit_mask[i];
+			digitnum_port = digit_num[digit[i]];
 
-            pc.printf("%d,", digit[i]);
-    	}
-        pc.printf(": %d\r\n", count);
-        wait(0.5);
-    }
+			pc.printf("%d,", digit[i]);
+		}
+		pc.printf(": %d\r\n", count);
+		wait(0.5);
+	}
 }

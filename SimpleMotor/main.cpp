@@ -7,15 +7,15 @@ DigitalIn sw(p10);
 int main() 
 {
 	sw.mode(PullUp);
-    while(1) 
-    {
-    	if(!sw){
-    		motor = 1;
+	while(1) 
+	{
+		if(!sw){
+			motor = 1;
 			led = 1;
-    	}
-    	else{
+		}
+		else{
 			motor = 0;
 			led = 0;
-    	}
-    }
+		}
+	}
 }

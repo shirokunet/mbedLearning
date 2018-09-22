@@ -7,14 +7,14 @@ int main()
 {
 	sw.mode(PullUp);
 	int fhz = 5;
-	double sleeptime = 1.0/double(fhz);
+	double sleeptime = 0.0;
 	while(1) 
 	{
 		if(!sw)
 			fhz = 10;
 		else
 			fhz = 5;
-		sleeptime = 1.0/double(fhz);
+		sleeptime = 1.0/double(fhz)/2.0;
 
 		led = 1;
 		wait(sleeptime);

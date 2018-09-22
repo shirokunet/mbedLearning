@@ -5,7 +5,7 @@ DigitalOut led(p5);
 int main() 
 {
 	int fhz = 5;
-	double sleeptime = 1.0/double(fhz);
+	double sleeptime = 1.0/double(fhz)/2.0;
 	while(1) 
 	{
 		led = 1;

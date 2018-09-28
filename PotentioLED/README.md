@@ -6,3 +6,7 @@
 
 ![Test](https://github.com/shirokunet/mbedLearning/raw/master/images/PotentioLED.gif)
 
+[mbed Learning PotentioLED terminal - YouTube](https://www.youtube.com/watch?v=AZGNYXKBeH4)
+
+![Test](https://github.com/shirokunet/mbedLearning/raw/master/images/PotentioLED_Terminal.gif)
+

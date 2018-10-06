@@ -17,7 +17,7 @@ int main()
 	timer.start();
 
 	/* swmode */
-    sw.mode(SWMODE);
+	sw.mode(SWMODE);
 	if(SWMODE == PullUp)
 		pc.printf("SWMODE:PullUp\r\n");
 	else if(SWMODE == PullDown)

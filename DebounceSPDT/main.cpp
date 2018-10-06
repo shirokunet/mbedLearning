@@ -18,7 +18,7 @@ int main()
 void toggle(bool signal)
 {
 	debounce.reset();
-	while(true)
+	while(sw.read() == signal)
 	{
 		if (debounce.read_us() > 1500)
 		{

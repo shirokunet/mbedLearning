@@ -4,7 +4,7 @@
 ## Movies
 [mbed Learning MPU9250 Calibration Flash - YouTube](https://www.youtube.com/watch?v=pzeZXaJB_C0)
 
-![terminal](https://github.com/shirokunet/mbedLearning/raw/master/images/MPU9250_CalibrationFlash.gif)
+![terminal](https://github.com/shirokunet/mbedLearning/raw/master/images/MPU9250_Calibration_Flash.gif)
 
 [mbed Learning MPU9250 Calibration Flash Terminal - YouTube](https://www.youtube.com/watch?v=Sahylx1r0QQ)
 

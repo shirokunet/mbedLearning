@@ -1,4 +1,5 @@
 ## Photos
+[The MPU9250 module I bought from Stratux](https://github.com/stratux/ahrs/blob/master/AHRS.pdf) is not connect to the int pin. So I used soldering to connect mbed. 
 ![intpin](https://github.com/shirokunet/mbedLearning/raw/master/images/IMG_20181019_234308.jpg)
 
 ## Movies
